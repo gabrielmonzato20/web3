@@ -1,0 +1,87 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "param1",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "param2",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "amount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "from",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Wallet1.sol": "PaymentInfo"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Wallet1.sol": {
+			"keccak256": "0xed4d648503aa310950db7c855cb154ab3ede363d6f0b78c3f8061137554c6e52",
+			"urls": [
+				"bzz-raw://ec739202a97669cb228e6f343dee558535187342c97f30bda79073d1b162efaf",
+				"dweb:/ipfs/QmXLrrWtYDF9nduDDvyKCkxpstTbwyY1zSdQ8U5Gv2Mq6Z"
+			]
+		}
+	},
+	"version": 1
+}

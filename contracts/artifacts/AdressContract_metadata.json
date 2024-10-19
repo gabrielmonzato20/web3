@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getAdressBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myadress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "param",
+						"type": "address"
+					}
+				],
+				"name": "setmyAdress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/adress_contract.sol": "AdressContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/adress_contract.sol": {
+			"keccak256": "0xf98f650542227bc1455a32a2f872f49c28f9a19b54cbf60462e78ce42b73108e",
+			"urls": [
+				"bzz-raw://05fcb876409a7fedd0e5e350d5efe93cc65c20d35f7699dd6fbdafbe2560f5d3",
+				"dweb:/ipfs/QmSikqSJyUt6mGZXLdJ6ZJszT8LdjLtrZZEEeA57P8tCke"
+			]
+		}
+	},
+	"version": 1
+}

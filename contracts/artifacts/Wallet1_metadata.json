@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "payContract",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "payment",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amiunt",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Wallet1.sol": "Wallet1"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Wallet1.sol": {
+			"keccak256": "0xe8f46e553e68013420baec24f3efca66e7004fa9370f50834b42f06e260c38b3",
+			"urls": [
+				"bzz-raw://24d8061e1730df6915445c9b228f86f1c96cacaa38b23ee2d41ed428cc1b1d1e",
+				"dweb:/ipfs/QmaxL5VvR7gfDdFHayNigFr6nwq7zqqCrDLrZ8m9mtc7e3"
+			]
+		}
+	},
+	"version": 1
+}

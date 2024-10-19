@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Expections.sol": "Expection"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Expections.sol": {
+			"keccak256": "0xb0e3b4849538c6f29f664efd86d3180734ee049d87d049c3de7d58bee77a3841",
+			"urls": [
+				"bzz-raw://ce62cee552221558e67d18f8644cc2ee1b26ddc20e65a1e37144f4a0b5c78fea",
+				"dweb:/ipfs/QmdBpbuHrh37vRr4hFzLDNCXpuNj6ofYEABUbJYurPNBts"
+			]
+		}
+	},
+	"version": 1
+}

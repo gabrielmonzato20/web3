@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "param",
+						"type": "string"
+					}
+				],
+				"name": "sendMoney",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/payable.sol": "PayableContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/payable.sol": {
+			"keccak256": "0x5fabc3dfd97fa955fe40d153c31a96434e3622cfb74e3e710cdcc9e5774803bd",
+			"urls": [
+				"bzz-raw://950f4f9c0c2449793f047c152f9347fdd0519827e0c8cc7c008e61b32160e757",
+				"dweb:/ipfs/QmZuLVQQq4u6btNs9k5yWckfTYEwk6ptp99xrx3agBkpQd"
+			]
+		}
+	},
+	"version": 1
+}

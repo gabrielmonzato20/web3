@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					}
+				],
+				"name": "LogError",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "cathError",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TryCath.sol": "ErrorHandle"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/TryCath.sol": {
+			"keccak256": "0x45d69e3d781377ed8b44acc17ac2b5b6be735bbad05c5b82707b418e09a0f4d6",
+			"urls": [
+				"bzz-raw://fd7df757d55e927783ff573f2d4b624f8f4e1d22825d64711983c77646e936d6",
+				"dweb:/ipfs/QmNdKc5UVJzuraFSgS4r3fjpAt7Jto36ALsgEH3gZMbVv6"
+			]
+		}
+	},
+	"version": 1
+}
